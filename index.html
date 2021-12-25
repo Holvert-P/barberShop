@@ -1,124 +1,201 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Barberia El Negro || Estelí</title>
+  </head>
 
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Barberia El Negro || Estelí
-  </title>
-</head>
+  <body>
+    <nav class="nav">
+      <div class="nav__container">
+        <a href="./index.html" class="nav__logo">El Negro</a>
+        <button
+          class="nav__button hamburger hamburger--emphatic js-hamburger"
+          type="button"
+          id="nav__button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
 
-<body>
-  <nav class="nav">
-    <div class="nav__container">
-      <a href="./index.html" class="nav__logo">El Negro</a>
-      <button class="nav__button hamburger hamburger--emphatic js-hamburger" type="button" id="nav__button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-
-      <div class="nav__menu">
-        <div class="menu__list">
-          <a href="#inicio" class="nav__item">Inicio</a>
-          <a href="#about" class="nav__item">Nosotros</a>
-          <a href="#services" class="nav__item">Servicios</a>
-          <a href="#team" class="nav__item">Personal</a>
-          <a href="#contact" class="nav__item">Contacto</a>
+        <div class="nav__menu">
+          <div class="menu__list">
+            <a href="#home" class="nav__item">Inicio</a>
+            <a href="#about" class="nav__item">Nosotros</a>
+            <a href="#services" class="nav__item">Servicios</a>
+            <a href="#team" class="nav__item">Personal</a>
+            <a href="#contact" class="nav__item">Contacto</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <header class="header">
-    <section class="header__container">
-      <span class="header__sloan">Estilo y Elegancia</span>
-      <p class="header__sentence">Detrás de un buen corte hay dedicación, paciencia y un buen
-        <strong>Barbero</strong>
-      </p>
-      <span class="header__sloanBotton">¿buscas
-        calidad?
-        ¡la
-        encontraste!</span>
+    </nav>
+    <header class="header" id="home">
+      <section class="header__container">
+        <span class="header__sloan">Estilo y Elegancia</span>
+        <p class="header__sentence">
+          Detrás de un buen corte hay dedicación, paciencia y un buen
+          <strong>Barbero</strong>
+        </p>
+        <span class="header__sloanBotton"
+          >¿buscas calidad? ¡la encontraste!</span
+        >
 
-      <a href="https://wa.me/50557447776" target="_blank" rel="noopener" class="header__button">
-        <span></span>Reservaciones
-      </a>
+        <a
+          href="https://wa.me/50584290320"
+          target="_blank"
+          rel="noopener"
+          class="header__button"
+        >
+          <span></span>Reservaciones
+        </a>
+      </section>
+    </header>
+    <section class="about" id="about">
+      <h2 class="section__title">Nosotros</h2>
+      <article>
+        <img src="./assets/corte.jpg" alt="" />
+      </article>
+      <article class="about__text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          debiti voluptatem esse fugit fuga quibusdam quidem repellat aliquid
+          consectetur cumque sed itaque magni quo officia maiores, libero dolore
+          quam.
+        </p>
+      </article>
     </section>
-  </header>
-  <section class="about" id="about">
-    <h2 class="section__title">Nosotros</h2>
-    <article>
-      <img src="./assets/corte.jpg" alt="">
-    </article>
-    <article class="about__text">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos debiti voluptatem esse fugit fuga
-        quibusdam quidem repellat aliquid consectetur cumque sed itaque magni quo officia maiores, libero dolore quam.
-      </p>
-    </article>
-  </section>
-  <section class="services" id="services">
-    <h2 class="section__title">Servicios</h2>
-    <article class="section__services">
-      <h3 class="services__title">Cortes</h3>
-      <div class="desc">
-        <span>Afeitado</span>
-        <span>Desvanecido</span>
-        <span>Clásico</span>
-      </div>
-      <div class="price">
-        <span>C$ 90</span>
-        <span>C$ 80</span>
-        <span>C$ 80</span>
-      </div>
-      <h3 class="services__title">Barba</h3>
-      <div class="desc">
-        <span>Sombreado</span>
-        <span>Clásica</span>
-        <span>Con el corte</span>
-        <span>Tinte</span>
-      </div>
-      <div class="price">
-        <span>C$ 70</span>
-        <span>C$ 60</span>
-        <span>C$ 60</span>
-        <span>C$ 70</span>
-      </div>
-      <h3 class="services__title">Orillas</h3>
-      <div class="desc">
-        <span>Marcadas</span>
-        <span>Sombreadas</span>
-      </div>
-      <div class="price">
-        <span>C$ 40</span>
-        <span>C$ 60</span>
-      </div>
-      <h3 class="services__title">Otros</h3>
-      <div class="desc">
-        <span>Linea</span>
+    <section class="services" id="services">
+      <h2 class="section__title">Servicios</h2>
+      <article class="section__services">
+        <h3 class="services__title">Cortes</h3>
+        <div class="desc">
+          <span>Afeitado</span>
+          <span>Desvanecido</span>
+          <span>Clásico</span>
+        </div>
 
-        <span>Mascarilla</span>
-        <span>Peinado</span>
-      </div>
-      <div class="price">
-        <span>C$ 10</span>
+        <div class="price">
+          <span>C$ 90</span>
+          <span>C$ 80</span>
+          <span>C$ 80</span>
+        </div>
+        <h3 class="services__title">Barba</h3>
+        <div class="desc">
+          <span>Sombreado</span>
+          <span>Clásica</span>
+          <span>Con el corte</span>
+          <span>Tinte</span>
+        </div>
+        <div class="price">
+          <span>C$ 70</span>
+          <span>C$ 60</span>
+          <span>C$ 60</span>
+          <span>C$ 70</span>
+        </div>
+        <h3 class="services__title">Orillas</h3>
+        <div class="desc">
+          <span>Marcadas</span>
+          <span>Sombreadas</span>
+        </div>
+        <div class="price">
+          <span>C$ 40</span>
+          <span>C$ 60</span>
+        </div>
+        <h3 class="services__title">Otros</h3>
+        <div class="desc">
+          <span>Linea</span>
 
-        <span>C$ 70 - C$ 90</span>
-        <span>C$ 50</span>
-      </div>
-    </article>
-  </section>
+          <span>Mascarilla</span>
+          <span>Peinado</span>
+        </div>
+        <div class="price">
+          <span>C$ 10</span>
 
-  <footer>
-    <span>Copyright - 2022</span>
-  </footer>
-  <script src="./js/app.js"></script>
-</body>
-
+          <span>C$ 70 - C$ 90</span>
+          <span>C$ 50</span>
+        </div>
+      </article>
+    </section>
+    <section class="team" id="team">
+      <h2 class="section__title">Colaboradores</h2>
+      <article class="barber">
+        <img src="./assets/barber-4.jpg" alt="Barber" />
+        <h3>Nombre del barbero</h3>
+        <span>Ocupacion</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          officiis a iure reiciendis quisquam doloribus corporis. Qui sunt
+          voluptatum reiciendis.
+        </p>
+        <div class="barber__social">
+          <a href="" class="fb"></a>
+          <a href="" class="wp"></a>
+        </div>
+      </article>
+      <article class="barber">
+        <img src="./assets/barber-5.jpg" alt="Barber" />
+        <h3>Nombre del barbero</h3>
+        <span>Ocupacion</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          officiis a iure reiciendis quisquam doloribus corporis. Qui sunt
+          voluptatum reiciendis.
+        </p>
+        <div class="barber__social">
+          <a href="" class="fb"></a>
+          <a href="" class="wp"></a>
+        </div>
+      </article>
+      <article class="barber">
+        <img src="./assets/barber-6.jpg" alt="Barber" />
+        <h3>Nombre del barbero</h3>
+        <span>Ocupacion</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          officiis a iure reiciendis quisquam doloribus corporis. Qui sunt
+          voluptatum reiciendis.
+        </p>
+        <div class="barber__social">
+          <a href="" class="fb"></a>
+          <a href="" class="wp"></a>
+        </div>
+      </article>
+      <article class="barber">
+        <img src="./assets/barber-7.jpg" alt="Barber" />
+        <h3>Nombre del barbero</h3>
+        <span>Ocupacion</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          officiis a iure reiciendis quisquam doloribus corporis. Qui sunt
+          voluptatum reiciendis.
+        </p>
+        <div class="barber__social">
+          <a href="" class="fb"></a>
+          <a href="" class="wp"></a>
+        </div>
+      </article>
+    </section>
+    <a
+      href="https://wa.me/50584290320"
+      target="_blank"
+      rel="noopener"
+      class="contact__button"
+    ></a>
+    <footer>
+      <span>Copyright - 2022</span>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
 </html>

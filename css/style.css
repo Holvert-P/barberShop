@@ -252,7 +252,9 @@ img {
 }
 
 .about,
-.services {
+.services,
+.team,
+.contact {
   padding: 2rem;
   padding-top: 4rem;
   min-height: 100vh;
@@ -298,6 +300,46 @@ footer {
   background-color: var(--black-color);
   color: var(--white-color);
   text-align: center;
+}
+
+.barber {
+  margin-top: 3rem;
+}
+.barber h3 {
+  color: var(--red-color);
+  font-size: 1.5rem;
+}
+.barber span {
+  color: #80bfff;
+}
+.barber__social {
+  text-align: center;
+  padding: 1rem 0;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+.barber__social .fb,
+.barber__social .wp {
+  width: 2rem;
+  height: 2rem;
+  background-image: url(../assets/fb.svg);
+  background-size: cover;
+  display: inline-block;
+}
+.barber__social .wp {
+  background-image: url(../assets/whatsapp.svg);
+}
+.contact__button {
+  height: 3rem;
+  width: 3rem;
+  display: block;
+  position: fixed;
+  bottom: 3vh;
+  right: 4vw;
+  background-image: url(../assets/whatsapp.svg);
+  z-index: 100;
 }
 @media screen and (min-width: 768px) {
   .nav__menu {
